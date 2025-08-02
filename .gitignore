@@ -1,0 +1,27 @@
+# Ignore global node_modules
+/apps/**/node_modules/
+
+# Ignore environment variables
+/apps/**/.env
+/apps/**/.env.local
+/apps/**/.env.*.local
+
+# Ignore build outputs
+/apps/frontend/dist/
+/apps/backend/dist/
+/apps/backend/build/
+
+# Ignore TypeScript cache
+/apps/**/tsconfig.tsbuildinfo
+
+# Logs
+/apps/**/npm-debug.log*
+/apps/**/yarn-debug.log*
+/apps/**/yarn-error.log*
+
+# VSCode settings (se você usa)
+.vscode/
+
+# OS and IDE junk
+.DS_Store
+Thumbs.db
